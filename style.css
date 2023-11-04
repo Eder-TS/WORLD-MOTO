@@ -1,0 +1,125 @@
+body{
+    background-image: url("./images/dirtybike.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Rubik;
+}
+
+.backgroundimages{
+    opacity: 0.4;
+    width: 100%;
+}
+
+#content{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a#linktitle{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+a#linktitle:hover{
+    color: red;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    margin: 9px;
+}
+
+#services{
+display: grid;
+}
+
+h2{
+    text-align: center;
+}
+
+#masterservices{
+    display: flex;
+}
+
+#supportservices{
+    display: flex;
+    justify-content: center;
+
+}
+
+#video{
+    width: 200px;
+    height: 112px;
+    padding: 15px;
+}
+
+#form{
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px
+}
+
+button{
+    width: 335px;
+    height: 52px;
+    background-color: #e42315;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4de213;
+    color: black;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#location{
+    display: grid;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+i{
+    padding: 40px;
+    font-size: 40px;
+}
+
+#midias{
+    display: flex;
+    justify-content: center;
+}
